@@ -1,4 +1,3 @@
-import 'package:dna/onboarding_screens/welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -11,7 +10,6 @@ class SignIn extends StatelessWidget {
         body: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Center(child: loadLogo(image: "assets/images/logo.png")),
         Center(child: Text('Sign Up',   style: GoogleFonts.lora(fontSize: 32, fontWeight: FontWeight.bold),)),
         Padding(
           padding: const EdgeInsets.all(8.0),
